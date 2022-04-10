@@ -187,8 +187,9 @@ padding:0px;
 #services {
     background-color:#00363a;/*rgba(237, 237, 237, 1)*/;
     margin-top: -25px;
-    opacity: 1;
+    opacity: 2;
     color: #fff;
+    text-align: justify;
     border-bottom:3px solid rgba(0,0,0,0.3);
 
 }
@@ -202,6 +203,7 @@ padding:0px;
     #services h4 {
         padding-bottom: 5px;
         padding-top: 15px;
+        color: #1ff1ff;
     }
 
     #services7 img {
