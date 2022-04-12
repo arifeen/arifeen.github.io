@@ -144,6 +144,7 @@ padding:0px;
     -moz-background-size: cover;
     background-attachment: fixed;
     color: #1ff1ff;
+    opacity: 5;
     min-height: 905px;
 }
 
@@ -157,12 +158,21 @@ padding:0px;
         line-height: 25px;
         font-size: 18px;
         font-weight: 900;
-        padding-top: 180px;
-        padding-bottom: 35px;
+        padding-top: 150px;
+        padding-bottom: 25px;
         color: #1ff1ff/*#FF2276*/;
-        opacity: 0.4;
+        opacity: 0.8;
     }
 
+#header h3{
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        color: #1ff1ff/*#FF2276*/;
+        opacity: 0.8;
+    }
 
     #header h4 {
         line-height: 32px;
@@ -185,12 +195,19 @@ padding:0px;
     SERVICES STYLES
 ==================================*/
 #services {
+    background: url(../img/home4.jpg) no-repeat center center;
+    padding: 0;
     background-color:#00363a;/*rgba(237, 237, 237, 1)*/;
     margin-top: -25px;
-    opacity: 2;
+    opacity: 1;
     color: #fff;
     text-align: justify;
+     -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
     border-bottom:3px solid rgba(0,0,0,0.3);
+    min-height: 800px;
 
 }
 
@@ -216,7 +233,7 @@ padding:0px;
 
 .about {
     color: #1ff1ff;
-    opacity: 0.6;
+    opacity: 2;
 }
 
 /* =============================================================
@@ -434,4 +451,9 @@ footer, .social {
 
 .facebook, .instagram, .twitter, .fa {
     margin-right: 15px;
+}
+
+.aboutPara {
+     color: #1ff1ff;
+    opacity: 2;
 }
