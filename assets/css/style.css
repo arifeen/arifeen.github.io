@@ -218,10 +218,12 @@ padding:0px;
     }
 
     #services h4 {
+        font-size: 20px;
         padding-bottom: 5px;
         padding-top: 15px;
         color: #1ff1ff;
     }
+ 
 
     #services7 img {
        margin-right:40px;
